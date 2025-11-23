@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ command, mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: command === 'build' ? '/Cookies/' : '/',
+    base: command === 'build' ? '/CookiesBound/' : '/',
     server: {
       port: 4007,
       host: '0.0.0.0',
