@@ -88,7 +88,7 @@ const App: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-4">
             <img
-              src="/bound-logo.png"
+              src="bound-logo.png"
               alt="Bound"
               className="h-12 w-12 object-cover rounded-full"
             />
